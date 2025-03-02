@@ -41,6 +41,7 @@ elif menu == "Sehri & Iftar Timings ⏳":
             st.success(f"{city}:🌅 Sehri (Fajr) Time: {fajr} | 🌇 Iftar (Maghrib) Time: {maghrib}")
         except:
             st.error("⚠️ Unable to fetch timings. Please check the city name.")
+          
 
 # --- Quran Tracker ---
 elif menu == "Quran Tracker 📖":
@@ -63,6 +64,7 @@ elif menu == "Salah Tracker 🕌":
 # --- Zakat Calculator ---
 elif menu == "Zakat Calculator 💰":
     st.header("💰 Zakat Calculator")
+    st.image("zakat.jpg", caption="Zakat calculator", width=300)
     gold_savings = st.number_input("Gold/Silver Value (in local currency):", min_value=0.0, value=0.0)
     cash_savings = st.number_input("Cash Savings:", min_value=0.0, value=0.0)
     other_assets = st.number_input("Other Assets:", min_value=0.0, value=0.0)

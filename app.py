@@ -80,7 +80,7 @@ elif menu == "Zakat Calculator 💰":
 # --- Dua Collection with User-Saved Duas ---
 elif menu == "Dua Collection 🤲":
     st.header("🤲 Dua Collection (English + Urdu)")
-     st.image("dua.jpg",  use_container_width=True)
+    st.image("dua.jpg",  use_container_width=True)
 
     default_duas = [
         "اللَّهُمَّ إنِّي أَسْأَلُكَ الْجَنَّةَ وَأَعُوذُ بِكَ مِنَ النَّارِ \nO Allah! I ask You for Paradise and seek refuge from the Fire.",
@@ -173,7 +173,7 @@ elif menu == "40 Hadith 📜":
 # --- Tasbeeh Counter ---
 elif menu == "Tasbeeh Counter 📿":
     st.header("📿 Tasbeeh Counter")
-   st.image("tabehat.jpg",  use_container_width=True)
+    st.image("tabehat.jpg",  use_container_width=True)
 
 
     if "tasbeeh_list" not in st.session_state:

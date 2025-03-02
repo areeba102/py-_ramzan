@@ -55,6 +55,8 @@ elif menu == "Quran Tracker 📖":
 # --- Salah Tracker ---
 elif menu == "Salah Tracker 🕌":
     st.header("🕌 Salah Tracker")
+    st.image("namaz alah.jpg",  use_container_width=True)
+
     prayers = ["Fajr", "Dhuhr", "Asr", "Maghrib", "Isha"]
     st.write("Mark the prayers you have performed today:")
     for prayer in prayers:
@@ -76,6 +78,7 @@ elif menu == "Zakat Calculator 💰":
 # --- Dua Collection with User-Saved Duas ---
 elif menu == "Dua Collection 🤲":
     st.header("🤲 Dua Collection (English + Urdu)")
+     st.image("dua.jpg",  use_container_width=True)
 
     default_duas = [
         "اللَّهُمَّ إنِّي أَسْأَلُكَ الْجَنَّةَ وَأَعُوذُ بِكَ مِنَ النَّارِ \nO Allah! I ask You for Paradise and seek refuge from the Fire.",
@@ -117,6 +120,8 @@ elif menu == "Dua Collection 🤲":
 # --- 40 Hadith ---
 elif menu == "40 Hadith 📜":
     st.header("📜 40 Hadith Collection")
+    st.image("hadit.jpg",  use_container_width=True)
+
     hadiths = [
      "📖1. Actions are judged by intentions. (Bukhari & Muslim)",
      "  . اعمال کا دار و مدار نیتوں پر ہے۔ (بخاری و مسلم)",
@@ -166,6 +171,8 @@ elif menu == "40 Hadith 📜":
 # --- Tasbeeh Counter ---
 elif menu == "Tasbeeh Counter 📿":
     st.header("📿 Tasbeeh Counter")
+   st.image("tabehat.jpg",  use_container_width=True)
+
 
     if "tasbeeh_list" not in st.session_state:
         st.session_state.tasbeeh_list = {}

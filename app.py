@@ -26,7 +26,7 @@ if menu == "Home 🏠":
 # --- Sehri & Iftar Timings ---
 elif menu == "Sehri & Iftar Timings ⏳":
     st.header("⏳ Sehri & Iftar Timings")
-    st.image(iftari.jpg, caption="Ramadan Kareem", use_container_width=True)
+    st.image(iftari1.jpg, caption="Ramadan Kareem", use_container_width=True)
 
     st.write("Write your city name to know its time.")
 

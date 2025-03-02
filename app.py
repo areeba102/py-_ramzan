@@ -18,7 +18,7 @@ if menu == "Home 🏠":
     Welcome to **Ramadan Companion**! A complete guide to track your **Sehri & Iftar timings, Salah, Quran progress, Zakat, and more.**
     """)
 
-    image_url = "https://marketplace" https://www.shutterstock.com/image-vector/islamic-calligraphy-ramadan-quran-verse-260nw-628497932.jpg"  # Use a reliable image hosting service
+    image_url = "https://marketplace" https://marketplace.canva.com/EAFc8T7klhI/1/0/1600w/canva-green-modern-ramadan-mubarak-free-instagram-post-P0hRqLvxKA8.jpg"  # Use a reliable image hosting service
     st.image(image_url, caption="Ramadan Kareem", use_container_width=True)
 
     st.success("May Allah bless you this Ramadan! 🤲")

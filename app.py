@@ -168,7 +168,7 @@ elif menu == "Tasbeeh Counter 📿":
     if "tasbeeh_list" not in st.session_state:
         st.session_state.tasbeeh_list = {}
 
-    new_tasbeeh = st.text_input("Enter the name of the Tasbeeh you are reciting:", placeholder="SubhanAllah, Alhamdulillah")
+    new_tasbeeh = st.text_input("Enter the name of the Tasbeeh you are reciting:", placeholder="SubhanAllah, Alhamdulillah, AllahuAkbar")
 
     if st.button("Add Tasbeeh"):
         if new_tasbeeh and new_tasbeeh not in st.session_state.tasbeeh_list:

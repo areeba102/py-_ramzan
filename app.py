@@ -46,6 +46,8 @@ elif menu == "Sehri & Iftar Timings ⏳":
 # --- Quran Tracker ---
 elif menu == "Quran Tracker 📖":
     st.header("📖 Quran Tracker")
+    st.image("quran.jpg",  use_container_width=True)
+
     total_juz = 30
     completed_juz = st.number_input("Enter the number of Juz completed:", min_value=0, max_value=30, value=0)
     progress = (completed_juz / total_juz) * 100
